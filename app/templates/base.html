@@ -20,6 +20,9 @@ ZYX 's Tinysite - {{ title }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="{{ url_for('index') }}">主页</a></li>
+                <li><a href="https://meowsir.github.io">博客</a></li>
+                <li><a href="http://120.55.88.72:8000">网盘</a></li>
+                <li><a href="http://120.55.88.72:8001">图床</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 {% if current_user.is_anonymous %}
